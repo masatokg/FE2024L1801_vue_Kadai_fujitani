@@ -20,7 +20,7 @@ new Vue({
     },
     drawFortune() {
       // バリデーションが成功した場合のみランダムな運勢を生成
-      if () {
+      if (true) {
         //0から100までのランダムな数値を取得する
         const randomNumber = Math.round(Math.random() * 100);
         //数値が80以上の場合（大吉）
@@ -34,7 +34,7 @@ new Vue({
         //それ以外の場合（凶）
 
       }
-      }
     }
   }
+}
 );
